@@ -70,11 +70,13 @@ function createFootPrint() {
 };
 
 function walk() {
-    $("#leftFootImg").fadeIn(700);
-    $("#leftFootImg").fadeOut(700)
+    $("#leftFootImg").fadeIn(700, function(){
+        $("#leftFootImg").fadeOut(700)
+    });
     setTimeout(function() {
-        $("#rightFootImg").fadeIn(700);
-        $("#rightFootImg").fadeOut(700)
+        $("#rightFootImg").fadeIn(700,function() {
+            $("#rightFootImg").fadeOut(700)
+        });
     },1400);
 }
 
