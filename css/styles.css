@@ -1,0 +1,167 @@
+#transition {
+background:-webkit-linear-gradient(bottom, white 0%, white 50%, transparent 100%);
+background:-moz-linear-gradient(bottom, white 0%, white 50%, transparent 100%);
+background:linear-gradient(to top, white 0%, white 50%, transparent 100%);
+}
+
+#clock img:hover {
+	transform: scale(1.3);	/*画像の拡大率*/
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+
+
+#pot img:hover {
+	transform: scale(1.3);	/*画像の拡大率*/
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+
+
+#trump img:hover {
+	transform: scale(1.3);	/*画像の拡大率*/
+	transition-duration: 0.3s;	/*変化に掛かる時間*/
+}
+
+#hare {
+	display: none;
+	position : absolute;
+    left : 0;
+    right : 0;
+    top : 0;
+    bottom : 0;
+    margin : auto;
+    width : calc(128*1.5px);
+    height : calc(128*1.5px);
+	display: none;
+}
+
+#hare img {
+	height : calc(128*1.5px);
+}
+
+#footprint {
+	position : absolute;
+    left : 0px ;
+    right : 0px ;
+    top : calc(200*1.5px) ;
+    bottom : 0px ;
+    margin : auto;
+    width : calc(85*1.5px) ;
+	height : calc(70*1.5px);
+}
+
+#footprintImg {
+	width :calc(85*1.5px);
+	height : calc(70*1.5px) ;
+	display: none;
+}
+
+#foots {
+	position :absolute;
+    left : 0px;
+    right : 0px ;
+    bottom : 0px ;
+    margin : auto;
+    width : calc(85*1.5px) ;
+    height : calc(70*1.5px) ;
+}
+
+#rightFootImg {
+	display: none;
+	position : absolute;
+    height : calc(70*1.5px);
+    right : 0px;
+    bottom : 100px;
+}
+#leftFootImg {
+	display: none;
+	position : absolute;
+    height : calc(70*1.5px);
+    left : 0px;
+    bottom : 0px;
+}
+
+#hole {
+	zIndex : 10;
+	position : absolute;
+	left : 0;
+	right : 0;
+	top : 0;
+	bottom : 0;
+	margin : auto;
+	width : calc(128*1.5px);
+	height : calc(128*1.5px);
+}
+
+#holeImg {
+	height : calc(128*1.5px);
+	display: none;
+}
+
+#alice{
+	display: none;
+	position : absolute;
+	top : 500px;
+	right : 0;
+	bottom : 0;
+	left : 0;
+    margin : auto;
+    height : 400px;
+    width : 400px;
+}
+
+#aliceImg{
+	position : absolute;
+	height : 400px;
+    width : 400px;
+}
+
+#clock{
+	display: none;
+	position : absolute;
+	top : 100px;
+	right : 500px;
+	bottom : 0;
+	left : 0;
+	margin : auto;
+	height : 128px;
+	width : 128px;
+}
+
+#clockImg{
+	height : 128px;
+	width : 128px;
+}
+
+#pot{
+	display: none;
+	position : absolute;
+	top : 0;
+	right : 0;
+	bottom : 0;
+	left : 500px;
+	margin : auto;
+	height : 128px;
+	width : 128px;
+}
+
+#potImg{
+	height : 128px;
+	width : 128px;
+}
+
+#trump{
+	display: none;
+	position : absolute;
+	top : 0;
+	right : 100px;
+	bottom : 300px;
+	left : 0;
+	margin : auto;
+	height : 128px;
+	width : 128px;
+}
+
+#trumpImg{
+	height : 128px;
+	width : 128px;
+}
